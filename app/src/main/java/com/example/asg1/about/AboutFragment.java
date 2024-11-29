@@ -23,6 +23,7 @@ public class AboutFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_about, container, false);
 
         TextView txtGitHub = root.findViewById(R.id.txtGitHub);
+        txtGitHub.setText(android.text.Html.fromHtml("<a href='https://github.com/irdinadayini/ICT602'>Visit my GitHub</a>"));
         txtGitHub.setMovementMethod(LinkMovementMethod.getInstance());
 
         return root;

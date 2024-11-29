@@ -8,7 +8,7 @@ public class AboutViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public AboutViewModel() {
+    public AboutViewModel()  {
         mText = new MutableLiveData<>();
         mText.setValue("About Me");
     }
